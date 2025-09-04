@@ -7,7 +7,7 @@ export const gearPackages = () => [
     inventory: 
     [
       {
-        title: 'Rations (3)',
+        title: 'Паек (3)',
         inHand: false,
         fatigue: false
       },
