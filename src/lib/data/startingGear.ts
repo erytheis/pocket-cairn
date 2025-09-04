@@ -57,11 +57,11 @@ export const startingWeapons = () => {
 }
 
 export const startingGear = [
-  '', 'Air Bladder', 'Fire Oil',	'Manacles',	'Rope (25ft)',
-  'Antitoxin',	'Grappling Hook',	'Pick',	'Spirit Ward',
-  'Cart (+4 slots, bulky)',	'Large Sack',	'Pole (10ft)',	'Spyglass',
-  'Chain (10ft)',	'Large Trap',	'Pulley',	'Tinderbox',
-  'Dowsing Rod',	'Lockpicks', 'Repellent',	'Wolfsbane'
+"", "Воздушный пузырь", "Огненное масло", "Кандалы", "Веревка (7,5 м)",
+"Антитоксин", "Абордажный крюк", "Кирка", "Оберег от духов",
+"Тележка (+4 слота, громоздкая)", "Большой мешок", "Шест (3,5 м)", "Подзорная труба",
+"Цепь (3,5 м)", "Большая ловушка", "Блок", "Трутница",
+"Лозоискатель", "Отмычки", "Репеллент", "Аконит"
 ]
 
 export const startingTools = [
