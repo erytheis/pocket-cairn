@@ -5,7 +5,7 @@ export const startingArmor = () => {
     if (item <= 3) {
       list.push('')
     } else if (item <= 14) {
-      list.push('Brigandine (1 Armor, bulky)')
+      list.push('Бригантина (1 Armor, bulky)')
     } else if (item <= 19) {
       list.push('Chainmail (2 Armor, bulky)')
     } else {
