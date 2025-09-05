@@ -65,17 +65,17 @@ export const startingGear = [
 ]
 
 export const startingTools = [
-  '', 'Bellows',	'Cook Pots',	'Grease',	'Net',
-  'Bucket',	'Crowbar',	'Hammer',	'Saw',
-  'Caltrops',	'Drill (Manual)',	'Hour Glass',	'Sealant',
-  'Chalk',	'Fishing Rod',	'Metal File',	'Shovel',
-  'Chisel', 'Glue',	'Nails',	'Tongs'
-]
+  '', 'Меха', 'Котелки', 'Смазка', 'Сеть',
+  'Ведро', 'Лом', 'Молоток', 'Пила',
+  'Ежики-ловушки', 'Ручная дрель', 'Песочные часы', 'Герметик',
+  'Мел', 'Удочка', 'Напильник', 'Лопата',
+  'Зубило', 'Клей', 'Гвозди', 'Клещи'
+];
 
 export const startingTrinkets = [
-  '', 'Bottle',	'Horn',	'Mirror',	'Soap',
-  'Card Deck',	'Incense',	'Perfume',	'Sponge',
-  'Dice Set',	'Instrument',	'Quill & Ink',	'Tar Pot',
-  'Face Paint',	'Lens',	'Salt Pack',	'Twine',
-  'Fake Jewels',	'Marbles',	'Small Bell',	'Whistle'
-]
+  '', 'Бутылка', 'Рог', 'Зеркало', 'Мыло',
+  'Колода карт', 'Благовония', 'Духи', 'Губка',
+  'Набор кубиков', 'Инструмент', 'Перо и чернила', 'Смоляная банка',
+  'Грим', 'Линза', 'Пакет соли', 'Бечёвка',
+  'Фальшивые драгоценности', 'Шарики', 'Колокольчик', 'Свисток'
+];

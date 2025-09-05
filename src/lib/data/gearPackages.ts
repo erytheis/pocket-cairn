@@ -3,46 +3,46 @@ import spells from "./spells";
 
 export const gearPackages = () => [
   {
-    title: 'Cleric',
-    inventory: 
+    title: 'Клерик',
+    inventory:
     [
       {
-        title: 'Паек (3)',
+        title: 'Пайки (на три дня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Torch',
+        title: 'Факел',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'War Hammer (d10, bulky)',
+        title: 'Боевой молот (d10, громоздкий)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Chainmail (2 Armor, bulky)',
+        title: 'Кольчуга (2 брони, громоздкая)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Gauntlets (+1 Armor)',
+        title: 'Перчатки (+1 броня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Cleansing Blade (d6)',
+        title: 'Заточенный клинок (d6)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Holy Symbol (Ward once per day)',
+        title: 'Святой символ (Дух раз в день)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Cloak of the Order',
+        title: 'Плащ Ордена',
         inHand: false,
         fatigue: false
       },
@@ -59,46 +59,46 @@ export const gearPackages = () => [
     ]
   },
   {
-    title: 'Dowser',
-    inventory: 
+    title: 'Мистик',
+    inventory:
     [
       {
-        title: 'Rations (3)',
+        title: 'Пайки (на три дня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Torch',
+        title: 'Факел',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Sickle (d6)',
+        title: 'Серп (d6)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Patchwork Doublet (+1 Armor)',
+        title: 'Заплатанный дублет (+1 броня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Dowsing Rod',
+        title: 'Ивовая палочка',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Eyestone (Sense if placed in fresh water)',
+        title: 'Глазной камень (чувствует, если поместить его в пресную воду)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Worn Map',
+        title: 'Старая карта местности',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Spyglass',
+        title: 'Подзорная труба',
         inHand: false,
         fatigue: false
       },
@@ -115,46 +115,46 @@ export const gearPackages = () => [
     ]
   },
   {
-    title: 'Dwarf',
-    inventory: 
+    title: 'Дварф',
+    inventory:
     [
       {
-        title: 'Rations (3)',
+        title: 'Пайки (на три дня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Torch',
+        title: 'Факел',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Prickly Root (d6)',
+        title: 'Колючий корень (d6)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Pinecone Lattice (1 Armor)',
+        title: 'Броня из сосновых шишек (1 броня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Trowel',
+        title: 'Шпатель',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Jar of Forest Ants',
+        title: 'Банка с лесными муравьями',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Poisonous mushroom',
+        title: 'Ядовитый гриб',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Hand Drill',
+        title: 'Ручная дрель',
         inHand: false,
         fatigue: false
       },
@@ -171,46 +171,46 @@ export const gearPackages = () => [
     ]
   },
   {
-    title: 'Elf',
-    inventory: 
+    title: 'Эльф',
+    inventory:
     [
       {
-        title: 'Rations (3)',
+        title: 'Пайки (на три дня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Torch',
+        title: 'Факел',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Elegant Sword (d8)',
+        title: 'Элегантный меч (d8)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Recurve Bow (d8)',
+        title: 'Изогнутый лук (d8)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Gilt Clothing (1 Armor)',
+        title: 'Позолоченная одежда (1 доспех)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Spellbook (Detect Magic)',
+        title: 'Книга заклинаний (Очарование или Поиск)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Golden Flute',
+        title: 'Золотая флейта',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Air Bladder',
+        title: 'Воздушный пузырь',
         inHand: false,
         fatigue: false
       },
@@ -227,46 +227,46 @@ export const gearPackages = () => [
     ]
   },
   {
-    title: 'Fighter',
-    inventory: 
+    title: 'Боец',
+    inventory:
     [
       {
-        title: 'Rations (3)',
+        title: 'Пайки (на три дня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Torch',
+        title: 'Факел',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Glaive (d10, bulky)',
+        title: 'Глефа (d10, громоздкая)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Scimitar (d8)',
+        title: 'Ятаган (d8)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Shortsword (d6)',
+        title: 'Короткий меч (d6)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Shortsword (d6)',
+        title: 'Короткий меч (d6)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Tobacco Pouch & Pipe',
+        title: 'Кисет для табака и трубка',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Dice Set',
+        title: 'Набор кубиков',
         inHand: false,
         fatigue: false
       },
@@ -283,46 +283,46 @@ export const gearPackages = () => [
     ]
   },
   {
-    title: 'Friar',
-    inventory: 
+    title: 'Монах',
+    inventory:
     [
       {
-        title: 'Rations (3)',
+        title: 'Пайки (на три дня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Torch',
+        title: 'Факел',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Scepter (d6)',
+        title: 'Скипетр (d6)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Deceptive Robes (+1 Armor)',
+        title: 'Мешковатая одежда (+1 броня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Censer & Holy Water',
+        title: 'Кадило и Святая вода',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Jug of Honey Wine',
+        title: 'Кувшин медового вина',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Folk Songbook',
+        title: 'Сборник народных песен',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Cart (+4 slots, bulky)',
+        title: 'Тележка (+4 слота, громоздкая)',
         inHand: false,
         fatigue: false
       },
@@ -339,46 +339,46 @@ export const gearPackages = () => [
     ]
   },
   {
-    title: 'Knight',
-    inventory: 
+    title: 'Рыцарь',
+    inventory:
     [
       {
-        title: 'Rations (3)',
+        title: 'Пайки (на три дня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Torch',
+        title: 'Факел',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Longsword (d10, bulky)',
+        title: 'Длинный меч (d10, громоздкий)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Chainmail (2 Armor, bulky)',
+        title: 'Кольчуга (2 доспеха, громоздкие)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Helmet (+1 Armor)',
+        title: 'Шлем (+1 броня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Heraldic Cape',
+        title: 'Плащ с гербом',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Manacles',
+        title: 'Наручники',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Fine Rope',
+        title: 'Тонкая веревка',
         inHand: false,
         fatigue: false
       },
@@ -395,46 +395,46 @@ export const gearPackages = () => [
     ]
   },
   {
-    title: 'Magic User',
-    inventory: 
+    title: 'Знаток волшебства',
+    inventory:
     [
       {
-        title: 'Rations (3)',
+        title: 'Пайки (на три дня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Torch',
+        title: 'Факел',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Fizzled Staff (d8, bulky)',
+        title: 'Сломанный посох (d8, громоздкий)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Dagger (d6)',
+        title: 'Кинжал (d6)',
         inHand: false,
         fatigue: false
       },
       {
-        title: `Spellbook (${spells[rollDices(1, 100)]})`,
+        title: `Книга заклинаний (${spells[rollDices(1, 100)]})`,
         inHand: false,
         fatigue: false
       },
       {
-        title: `Spellbook (${spells[rollDices(1, 100)]})`,
+        title: `Книга заклинаний (${spells[rollDices(1, 100)]})`,
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Ragged Clothing (hidden pockets)',
+        title: 'Рваная одежда (потайные карманы)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Leycap (x2, see Relics)',
+        title: 'Лейшайник (x2, см. Реликвии)',
         inHand: false,
         fatigue: false
       },
@@ -451,46 +451,46 @@ export const gearPackages = () => [
     ]
   },
   {
-    title: 'Thief',
-    inventory: 
+    title: 'Вор',
+    inventory:
     [
       {
-        title: 'Rations (3)',
+        title: 'Пайки (на три дня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Torch',
+        title: 'Факел',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Two daggers (d6+d6)',
+        title: 'Два кинжала (d6+d6)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Hooded Jerkin (1 Armor)',
+        title: 'Куртка с капюшоном (1 доспех)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Lockpicks',
+        title: 'Отмычки',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Caltrops',
+        title: 'Шипы-ловушки',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Grappling Hook',
+        title: 'Крюк-кошка',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Metal File',
+        title: 'Напильник',
         inHand: false,
         fatigue: false
       },
@@ -507,46 +507,46 @@ export const gearPackages = () => [
     ]
   },
   {
-    title: 'Ranger',
-    inventory: 
+    title: 'Следопыт',
+    inventory:
     [
       {
-        title: 'Rations (3)',
+        title: 'Пайки (на три дня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Torch',
+        title: 'Факел',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Longbow (d8, bulky)',
+        title: 'Длинный лук (d8, громоздкий)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Hatchet (d6)',
+        title: 'Топорик (d6)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Padded Leathers (1 Armor)',
+        title: 'Кожаная броня (1 броня)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Large Trap',
+        title: 'Большая ловушка',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Bloodhound | 2 HP, 12 DEX, bite (d6)',
+        title: 'Ищейка | 2 HP, 12 ловкости, укус (d6)',
         inHand: false,
         fatigue: false
       },
       {
-        title: 'Thundering Horn',
+        title: 'Рог',
         inHand: false,
         fatigue: false
       },
@@ -562,4 +562,4 @@ export const gearPackages = () => [
       }
     ]
   },
-]
+];
