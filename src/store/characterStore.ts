@@ -110,12 +110,12 @@ const createCoins = () => {
 const createInventory = () => {
   const { subscribe, set, update } = writable([
     {
-      title: 'Rations (3)',
+      title: 'Паёк (3)',
       inHand: false,
       fatigue: false,
     },
     {
-      title: 'Torch',
+      title: 'Факел',
       inHand: false,
       fatigue: false,
     },
