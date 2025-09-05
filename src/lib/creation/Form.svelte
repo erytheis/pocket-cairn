@@ -190,10 +190,10 @@
           ? startingInventory()
           : gearPackages().find((item) => item.title === selectedGear).inventory
       )
-      notes.set(`Age: ${rollDices(2, 20) + 10}, formerly a ${
+      notes.set(`Возраст: ${rollDices(2, 20) + 10}, в прошлом ${
         background[rollDices(1, 20)]
       }.
-У вас ${phisique[rollDices(1, 10)]} телосложенние, ${
+У вас ${phisique[rollDices(1, 10)]} телосложение, ${
         skin[rollDices(1, 10)]
       }, ${hair[rollDices(1, 10)]} волосы и ${face[rollDices(1, 10)]} лицо.
 Вы говорите ${speech[rollDices(1, 10)]} и носите ${
