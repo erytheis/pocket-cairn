@@ -172,7 +172,11 @@
 Вы говорите ${speech[rollDices(1, 10)]} и носите ${clothing[rollDices(1, 10)]} одежду.
 Вы ${vice[rollDices(1, 10)]}, но при этом ${virtue[rollDices(1, 10)]}, и вас обычно считают ${reputation[rollDices(1, 10)]}.
 Вам не повезло оказаться ${misfortune[rollDices(1, 10)]}.`)
+    }
 
+    setLocalCharacter()
+    dispatch('hide-form')
+  }
 
   const toggleBackground = () => {
     chooseBackground = !chooseBackground
