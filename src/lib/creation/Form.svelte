@@ -168,8 +168,37 @@
       })
 
       notes.set(`Возраст: ${rollDices(2, 20) + 10}.
-У вас ${phisique[rollDices(1, 10)]} телосложение, ${skin[rollDices(1, 10)]} кожа, ${hair[rollDices(1, 10)]} волосы и ${face[rollDices(1, 10)]} лицо.
-Вы говорите ${speech[rollDices(1, 10)]} и носите ${clothing[rollDices(1, 10)]} одежду.
+У вас ${phisique[rollDices(1, 10)]} телосложенние, ${
+        skin[rollDices(1, 10)]
+      } кожа, ${hair[rollDices(1, 10)]} волосы и ${face[rollDices(1, 10)]} лицо.
+Вы говорите ${speech[rollDices(1, 10)]} и носите ${
+        clothing[rollDices(1, 10)]
+      } одежду.
+Вы ${vice[rollDices(1, 10)]}, но при этом ${virtue[rollDices(1, 10)]}.`)
+
+      companions.set([])
+      if (firstPerk.companions?.length) {
+        firstPerk.companions.forEach((item) => companions.addCompanion(item))
+      }
+      if (secondPerk.companions?.length) {
+        secondPerk.companions.forEach((item) => companions.addCompanion(item))
+      }
+    }
+    if ($edition === 'first') {
+      inventory.set(
+        selectedGear === 'random'
+          ? startingInventory()
+          : gearPackages().find((item) => item.title === selectedGear).inventory
+      )
+      notes.set(`Age: ${rollDices(2, 20) + 10}, formerly a ${
+        background[rollDices(1, 20)]
+      }.
+У вас ${phisique[rollDices(1, 10)]} телосложенние, ${
+        skin[rollDices(1, 10)]
+      } кожа, ${hair[rollDices(1, 10)]} волосы и ${face[rollDices(1, 10)]} лицо.
+Вы говорите ${speech[rollDices(1, 10)]} и носите ${
+        clothing[rollDices(1, 10)]
+      } одежду.
 Вы ${vice[rollDices(1, 10)]}, но при этом ${virtue[rollDices(1, 10)]}, и вас обычно считают ${reputation[rollDices(1, 10)]}.
 Вам не повезло оказаться ${misfortune[rollDices(1, 10)]}.`)
     }
