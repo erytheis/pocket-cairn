@@ -5,11 +5,11 @@ export const startingArmor = () => {
     if (item <= 3) {
       list.push('')
     } else if (item <= 14) {
-      list.push('Бригантина (1 Armor, bulky)')
+      list.push('Бригантина (1 броня, громоздкая)')
     } else if (item <= 19) {
-      list.push('Chainmail (2 Armor, bulky)')
+      list.push('Кольчуга (2 брони, громоздкая)')
     } else {
-      list.push('Plate (3 Armor, bulky)')
+      list.push('Латы (3 брони, громоздкие)')
     }
   }
 
@@ -23,11 +23,11 @@ export const startingHelmOrShield = () => {
     if (item <= 13) {
       list.push('')
     } else if (item <= 16) {
-      list.push('Helmet (+1 Armor)')
+      list.push('Шлем (+1 броня)')
     } else if (item <= 19) {
-      list.push('Shield (+1 Armor)')
+      list.push('Щит (+1 броня)')
     } else {
-      list.push('both')
+      list.push('Оба')
     }
   }
 
@@ -39,17 +39,17 @@ export const startingWeapons = () => {
 
   for (let item = 1; item <= 20; item++) {
     if (item <= 5) {
-      list.push('Dagger/Cudgel/Staff  (d6 damage)')
+      list.push('Кинжал / Дубинка / Посох (d6 урона)')
     } else if (item <= 14) {
-      list.push('Sword/Mace/Axe (d8 damage)')
+      list.push('Меч / Булава / Топор (d8 урона)')
     } else if (item <= 16) {
-      list.push('Sling (d4 damage)')
+      list.push('Праща (d4 урона)')
     } else if (item <= 18) {
-      list.push('Bow (d6 damage, bulky)')
+      list.push('Лук (d6 урона, громоздкий)')
     } else if (item <= 19) {
-      list.push('Crossbow (d8 damage, bulky)')
+      list.push('Арбалет (d8 урона, громоздкий)')
     } else {
-      list.push('Halberd/War Hammer/Battleaxe  (d10 damage, bulky)')
+      list.push('Алебарда / Боевой молот / Секира (d10 урона, громоздкие)')
     }
   }
   
