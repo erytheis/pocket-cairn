@@ -29,12 +29,12 @@ export default () => {
 
   const inventory = [
     {
-      title: 'Rations (3)',
+      title: 'Паёк (3)',
       inHand: false,
       fatigue: false,
     },
     {
-      title: 'Torch',
+      title: 'Факел',
       inHand: false,
       fatigue: false,
     },
