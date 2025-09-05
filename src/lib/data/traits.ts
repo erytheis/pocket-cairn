@@ -21,61 +21,60 @@ export const surnames = [
   'Candlewick', 'Glass', 'Smythe', 'Weaver',
   'Cormick', 'Harkness', 'Sunderman', 'Wolder'
 ]
-
 export const background = [
-  '', 'alchemist', 'cleric', 'magician', 'performer',
-  'blacksmith',	'gambler', 'mercenary',	'pickpocket',
-  'burglar', 'gravedigger', 'merchant', 'smuggler',
-  'butcher', 'herbalist',	'miner', 'servant',
-  'carpenter', 'hunter',	'outlaw',	'ranger'
+  '', 'алхимик', 'клерик', 'маг', 'артист',
+  'кузнец', 'игрок', 'наёмник', 'карманник',
+  'взломщик', 'могильщик', 'купец', 'контрабандист',
+  'мясник', 'травник', 'шахтёр', 'слуга',
+  'плотник', 'охотник', 'преступник', 'следопыт'
 ]
 
 export const phisique = [
-  '', 'athletic', 'scrawny', 'brawny', 'short', 'flabby', 
-  'statuesque', 'lanky', 'stout', 'rugged',	'towering'
+  '', 'атлетичный', 'тощий', 'мускулистый', 'низкорослый', 'дряблый',
+  'статный', 'долговязый', 'коренастый', 'закалённый', 'высокий'
 ]
 
 export const skin = [
-  '', 'birthmark', 'round', 'dark', 'soft', 'elongated', 
-  'tanned', 'pockmarked', 'tattooed', 'rosy', 'weathered'
+  '', 'родимое пятно', 'круглое лицо', 'тёмная кожа', 'нежная кожа', 'вытянутое лицо',
+  'загорелая кожа', 'в рубцах', 'татуированная', 'румяная', 'обветренная'
 ]
 
 export const hair = [
-  '', 'bald', 'long', 'braided', 'luxurious', 'curly', 
-  'oily', 'filthy', 'wavy', 'frizzy', 'wispy'
+  '', 'лысый', 'длинные волосы', 'заплетённые косы', 'роскошные волосы', 'кудрявые волосы',
+  'жирные волосы', 'грязные волосы', 'волнистые волосы', 'пушистые волосы', 'редкие волосы'
 ]
 
 export const face = [
-  '', 'bony',	'perfect', 'broken',	'rat-like', 'chiseled',	
-  'sharp', 'elongated',	'square', 'pale', 'sunken'
+  '', 'костлявое', 'идеальное', 'сломанное', 'крысоподобное', 'высеченные черты',
+  'резкие черты', 'вытянутое', 'квадратное', 'бледное', 'впалое'
 ]
 
 export const speech = [
-  '', 'blunt', 'gravelly', 'booming', 'precise', 'cryptic', 
-  'squeaky', 'droning', 'stuttering', 'formal', 'whispery'
+  '', 'резкая речь', 'хриплый голос', 'громогласный', 'чёткая речь', 'загадочный тон',
+  'писклявый голос', 'монотонный', 'заикающийся', 'официальный', 'шёпот'
 ]
 
 export const clothing = [
-  '', 'antique', 'frayed', 'bloody', 'frumpy', 'elegant', 
-  'livery', 'filthy', 'rancid', 'foreign', 'soiled'
+  '', 'антикварная', 'потрёпанная', 'в крови', 'неуклюжая', 'элегантная',
+  'ливрея', 'грязная', 'вонючая', 'заморская', 'запачканная'
 ]
 
 export const virtue = [
-  '', 'ambitious', 'honorable', 'cautious', 'humble', 'courageous',
-  'merciful', 'disciplined', 'serene', 'gregarious', 'tolerant'
+  '', 'амбициозный', 'честный', 'осторожный', 'скромный', 'храбрый',
+  'милосердный', 'дисциплинированный', 'спокойный', 'общительный', 'терпимый'
 ]
 
 export const vice = [
-  '', 'aggressive', 'lazy', 'bitter', 'nervous', 'craven', 
-  'rude', 'deceitful', 'vain', 'greedy', 'vengeful'
+  '', 'агрессивный', 'ленивый', 'озлобленный', 'нервный', 'трус',
+  'грубый', 'лживый', 'тщеславный', 'жадный', 'мстительный'
 ]
 
 export const reputation = [
-  '', 'ambitious', 'loafer', 'boor', 'oddball', 'dangerous', 
-  'repulsive', 'entertainer', 'respected', 'honest', 'wise'
+  '', 'амбициозный', 'лодырь', 'хам', 'чудак', 'опасный',
+  'отталкивающий', 'забавный', 'уважаемый', 'честный', 'мудрый'
 ]
 
 export const misfortune = [
-  '', 'abandoned', 'defrauded', 'addicted', 'demoted', 'blackmailed', 
-  'discredited', 'condemned', 'disowned', 'cursed', 'exiled'
+  '', 'брошенный', 'обманутый', 'зависимый', 'разжалованный', 'шантажируемый',
+  'опозоренный', 'осуджённый', 'отверженный', 'проклятый', 'в изгнании'
 ]

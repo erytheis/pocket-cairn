@@ -167,47 +167,12 @@
           : [bondList[0].content],
       })
 
-      notes.set(`Age: ${rollDices(2, 20) + 10}. 
-You have an ${phisique[rollDices(1, 10)]} physique, ${
-        skin[rollDices(1, 10)]
-      } skin, ${hair[rollDices(1, 10)]} hair, and a ${face[rollDices(1, 10)]} face.
-You speak in a ${speech[rollDices(1, 10)]} manner and wear ${
-        clothing[rollDices(1, 10)]
-      } clothing.
-You are ${vice[rollDices(1, 10)]} yet ${virtue[rollDices(1, 10)]}.`)
+      notes.set(`Возраст: ${rollDices(2, 20) + 10}.
+У вас ${phisique[rollDices(1, 10)]} телосложение, ${skin[rollDices(1, 10)]} кожа, ${hair[rollDices(1, 10)]} волосы и ${face[rollDices(1, 10)]} лицо.
+Вы говорите ${speech[rollDices(1, 10)]} и носите ${clothing[rollDices(1, 10)]} одежду.
+Вы ${vice[rollDices(1, 10)]}, но при этом ${virtue[rollDices(1, 10)]}, и вас обычно считают ${reputation[rollDices(1, 10)]}.
+Вам не повезло оказаться ${misfortune[rollDices(1, 10)]}.`)
 
-      companions.set([])
-      if (firstPerk.companions?.length) {
-        firstPerk.companions.forEach((item) => companions.addCompanion(item))
-      }
-      if (secondPerk.companions?.length) {
-        secondPerk.companions.forEach((item) => companions.addCompanion(item))
-      }
-    }
-    if ($edition === 'first') {
-      inventory.set(
-        selectedGear === 'random'
-          ? startingInventory()
-          : gearPackages().find((item) => item.title === selectedGear).inventory
-      )
-      notes.set(`Age: ${rollDices(2, 20) + 10}, formerly a ${
-        background[rollDices(1, 20)]
-      }.
-You have an ${phisique[rollDices(1, 10)]} physique, ${
-        skin[rollDices(1, 10)]
-      } skin, ${hair[rollDices(1, 10)]} hair, and a ${face[rollDices(1, 10)]} face.
-You speak in a ${speech[rollDices(1, 10)]} manner and wear ${
-        clothing[rollDices(1, 10)]
-      } clothing.
-You are ${vice[rollDices(1, 10)]} yet ${
-        virtue[rollDices(1, 10)]
-      }, and are generally regarded as ${reputation[rollDices(1, 10)]}.
-You have had the misfortune of being ${misfortune[rollDices(1, 10)]}.`)
-    }
-
-    setLocalCharacter()
-    dispatch('hide-form')
-  }
 
   const toggleBackground = () => {
     chooseBackground = !chooseBackground
