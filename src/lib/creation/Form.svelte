@@ -195,7 +195,7 @@
       }.
 У вас ${phisique[rollDices(1, 10)]} телосложенние, ${
         skin[rollDices(1, 10)]
-      } кожа, ${hair[rollDices(1, 10)]} волосы и ${face[rollDices(1, 10)]} лицо.
+      }, ${hair[rollDices(1, 10)]} волосы и ${face[rollDices(1, 10)]} лицо.
 Вы говорите ${speech[rollDices(1, 10)]} и носите ${
         clothing[rollDices(1, 10)]
       } одежду.
